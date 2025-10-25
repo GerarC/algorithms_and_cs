@@ -4,8 +4,6 @@ Una lista ligada es una estructura de datos basada en nodos donde cada nodo apun
 
 Mientras que un array normal separa el espacio de memoria en conjunto, la Lista ligada puede ir reservando cada vez que se crea un nodo nuevo.
 
-Una lista ligada se puede ver memoria esparcida que se conecta a través de punteros:
-![[linked_list_example.png]]
 
 ## Array
 Para saber por qué usar Listas ligadas es bueno saber por qué se crearon.
@@ -19,3 +17,14 @@ En general las operaciones con array son muy rápidas porque con una simple form
 El mayor problema de los array es que son estáticos, cuando se reserva la memoria, se asigna un tamaño en específico y ese no cambia al momento de ejecución. Esto significa que no se pueden agregar items de manera dinámica a menos que reasignes la memoria, lo que es un trabajo pesado para el procesador y al eliminar un item, cubrir el espacio vacío que deja significa también los elementos posteriores al eliminado. El linked list resuelve estos problemas, aunque trae otros.
 
 ## Solución de la Lista Ligada
+Una lista ligada se puede ver memoria esparcida que se conecta a través de punteros:
+![[linked_list_example.png]]
+
+Esta lista se puede expandir tanto como haya espacio disponible en la memoria. Tiene sus ventajas y sus desventajas.
+
+#### Ventajas
+- Se pueden crear y añadir nuevos elementos en runtime.
+- facilita la inserción y el borrado de los elementos.
+
+#### Desventajas
+	- 
