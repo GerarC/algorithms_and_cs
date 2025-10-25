@@ -1,0 +1,32 @@
+[
+  {
+    "arguments": [
+      "/sbin/gcc",
+      "-c",
+      "-Wall",
+      "-Wextra",
+      "-I./include/",
+      "-o",
+      "build/ll.o",
+      "src/ll.c"
+    ],
+    "directory": "/home/gerarc/Workspace/algorithms/linked_list/code",
+    "file": "/home/gerarc/Workspace/algorithms/linked_list/code/src/ll.c",
+    "output": "/home/gerarc/Workspace/algorithms/linked_list/code/build/ll.o"
+  },
+  {
+    "arguments": [
+      "/sbin/gcc",
+      "-c",
+      "-Wall",
+      "-Wextra",
+      "-I./include/",
+      "-o",
+      "build/main.o",
+      "src/main.c"
+    ],
+    "directory": "/home/gerarc/Workspace/algorithms/linked_list/code",
+    "file": "/home/gerarc/Workspace/algorithms/linked_list/code/src/main.c",
+    "output": "/home/gerarc/Workspace/algorithms/linked_list/code/build/main.o"
+  }
+]
